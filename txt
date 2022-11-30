@@ -1,0 +1,24 @@
+ Array of Salary Items (show as cards in grid layout)
+◦ Item Type : Dropdown
+▪ Basic Salary (mandatory)
+▪ House Rent Allowance (allow 10%, 15% or 20% only)
+▪ Medical Allowance (max 12000)
+▪ Convenience Allowance (flat 2000 and mandatory item)
+▪ Skill Allowance (any amount)
+▪ Other Allowance (any amount)
+◦ Percentage : Percentage Slider (use pure html range slider)
+◦ Amount : Amount calculated based on percentage selected on slider (not a text box)
+ Show an additional card with a message based on following conditions
+◦ If percentage is not completed show remaining amount of salary with an add button.
+◦ If percentage is met exactly show message, "Total gross amount classified"
+ Finish Button (validate and print the data to console logs)
+Rules:
+ Total percentage of all items combined should not go over 100. Percentage slider should go
+back to maximum percentage available if stretched over allowed limit.
+ Total amount should not exceed gross salary that was entered on first step.
+ Salary item validation as per type
+ Gross salary amount should be in multiple of 1000
+ Salary item amounts should be in multiple of 100
+ Mandatory item Basic Salary and should be auto added default to 60% of gross salary
+ Mandatory item Convenience Allowance and should be auto add
+ Do not allow multiple items of same type
